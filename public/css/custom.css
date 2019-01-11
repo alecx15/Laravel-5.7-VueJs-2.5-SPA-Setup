@@ -1,0 +1,75 @@
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 55%;
+        display: block;
+        width: 75px;
+        text-align: center;
+        z-index: 999;
+        top: 0px;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+    .navbar-default {
+        z-index: 999;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1680px;
+    }
+}
+.container-top {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1770px;
+
+}
+.photos {
+    width: 100%;
+}
+/*
+.container {
+width: 1580px;
+}
+*/
+#about {
+    height: 50vw;
+}
+.mb-1 {
+    margin-bottom:1%;
+}
+.mb-2 {
+    margin-bottom:2%;
+}
+.mb-3 {
+    margin-bottom:3%;
+}
+.mb-4 {
+    margin-bottom:4%;
+}
+.mb-5 {
+    margin-bottom:5%;
+}
+.mt-1 {
+    margin-top:1%;
+}
+.mt-2 {
+    margin-top:2%;
+}
+.mt-3 {
+    margin-top:3%;
+}
+.mt-4 {
+    margin-top:4%;
+}
+.mt-5 {
+    margin-top:5%;
+}
+red {
+    color: red;
+}
